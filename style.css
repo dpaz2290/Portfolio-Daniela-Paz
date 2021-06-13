@@ -63,3 +63,13 @@ body {
 .last-section {
     padding-bottom: 80px;;
 }
+@media (max-width: 576px) {
+
+    img {
+      display: none;
+    }
+    .content-button{
+        display: flex;
+        justify-content: center;
+    }
+  }
